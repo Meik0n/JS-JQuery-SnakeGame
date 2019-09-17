@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+body{
+	background: #BADA55;
+	font-family: 'Roboto';
+	font-weight:500;
+	text-transform: uppercase;
+	color: #2E8612;
+	overflow: hidden;
+	height:100%;
+}
+.contenedor{
+    position: absolute;
+    top: 25%; 
+    left: 50%; 
+
+    margin-top: -200px; 
+    margin-left: -300px;     
+}
+.game{
+    background: rgb(171, 223, 0);
+    position:relative;
+    width:600px;
+    height: 600px;
+}
+
+
+
+#game-area
+{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left:50px;
+    top:50px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+#game-area,td
+{
+    border: none;
+}
+
+
+.draw-player
+{
+    background-color: rgb(0, 255, 0) !important;
+}
+
+.draw-point
+{
+    background-color: rgb(255, 0, 0) !important;
+}
+
+#game-status
+{
+    font-size: 3em;
+}
+
+.game-score{
+    font-size: 3em;
+}
